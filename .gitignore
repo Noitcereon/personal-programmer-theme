@@ -1,0 +1,44 @@
+# ignore everything in these folders.
+wp-admin/*
+wp-includes/*
+wp-content/*
+
+# unignore the themes folder in wp-content
+!wp-content/themes
+
+# ignore specific themes
+wp-content/themes/twenty*/
+wp-content/themes/generatepress
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# any additional files to ignore
+pwa-manifest.json
+pwa-register-sw.js
+pwa-sw.js
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-config.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+.htaccess
+.htaccess.bk
+default.php
+index.php
+license.txt
