@@ -20,12 +20,15 @@ node_modules/
 
 # ignore any files beginning with wp- and ending with .php
 wp-*.php
-pwa*
 
 # any additional files to ignore
+pwa-manifest.json
+pwa-register-sw.js
+pwa-sw.js
 readme.html
 xmlrpc.php
-.htaccess*
+.htaccess
+.htaccess.bk
 default.php
 index.php
 license.txt
