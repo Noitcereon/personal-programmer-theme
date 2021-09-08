@@ -18,24 +18,14 @@ node_modules/
 *.sql
 *.sqlite
 
+# ignore any files beginning with wp- and ending with .php
+wp-*.php
+
 # any additional files to ignore
 pwa-manifest.json
 pwa-register-sw.js
 pwa-sw.js
 readme.html
-wp-activate.php
-wp-blog-header.php
-wp-comments-post.php
-wp-config-sample.php
-wp-config.php
-wp-cron.php
-wp-links-opml.php
-wp-load.php
-wp-login.php
-wp-mail.php
-wp-settings.php
-wp-signup.php
-wp-trackback.php
 xmlrpc.php
 .htaccess
 .htaccess.bk
