@@ -1,5 +1,10 @@
 <?php
 
+// When using a child theme, GeneratePress will automatically enqueue the necessary style.css files. 
+// You don’t need to enqueue the parent or child theme CSS files in your functions.php file.
+// GeneratePress ChildTheme Article: https://docs.generatepress.com/article/using-child-theme/
+
+
 /**
  * This function modifies the main WordPress query to remove 
  * pages from search results.
